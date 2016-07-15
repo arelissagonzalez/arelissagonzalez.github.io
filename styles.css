@@ -1,35 +1,102 @@
 h1{
-	text-decoration: bold;
 	font-family: arial, sans-serif;
-
+	clear: both;
+	margin-left: 5px;
 }
-p {
-	background-color: #551666;
-	font-family: courier,monospace;
-	color: #a15ab8;
-	font-weight: 800;
-	line-height: 20px;
-	letter-spacing: 3px;
-	text-decoration:none
-;
-	word-spacing: 6px;
 
-
-	
-}
-body{
-	background-color: #0030ff;
-	font-family: 'Raleway', sans-serif; 
-	text-decoration:underline;
-}
 h2{
 	font-size: 22px;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
 	text-align: center;
+	clear: both;
+	border-style: solid;
+	border-color: pink;
+	padding-top: 20px;
+}
+h3 {
+	display: inline;
+	padding: 5px;
+	float: right;
+	background-color: deeppink;
 
 }
 
-body {
-	background-image: url("hearts.jpg");
+h4{
+	clear: both;
 }
+
+div.one{
+	position: fixed;
+	right: 1%;
+	top: 5.2%;
+}
+
+div.two, div.three, p {
+	
+	float: left;
+	font-family: courier,monospace;
+	color: #a15ab8;
+	font-weight: 800;
+	line-height: 20px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	width: 55%;
+	border-style: solid;
+	border-width: thick;
+	border-color: purple;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: inline;
+}
+
+div.four{
+		display: inline;
+
+}
+
+ol {
+margin-left: 20%
+}
+
+body{
+	background-color: pink;
+	font-family: 'Raleway', sans-serif; 
+	clear: both;
+	padding-bottom: 10%;
+}
+
+
+a {
+	color: #a15ab8;
+	text-decoration: underline;
+}
+
+
+img {
+	width: 325px;
+	height: 250px;
+	float: left;
+	margin-left: 5px;
+}
+
+img.one {
+	width: 25%;
+	height: 50%;
+
+}
+
+img.two{
+	width: 35%;
+	height: 10%;
+}
+
+footer{
+	font-family: Times, serif;
+	font-size: 14px;
+	background-color: deeppink;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+}
+
